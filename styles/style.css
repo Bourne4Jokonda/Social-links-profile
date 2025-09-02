@@ -21,7 +21,6 @@ body {
 
 .profile {
       width: 426px;
-      height: 660px;
       padding: 44px;
       background-color: hsl(0, 0%, 12%);
       border-radius: 20px;
@@ -30,22 +29,42 @@ body {
       justify-content: flex-start;
 }
 
+.profile_info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
 .avatar {
       width: 98px;
       height: 98px;
       border-radius: 49px;
+      margin-bottom: 40px;
 }
 
 .name {
       color: #fff;
+      font-size: 32px;
+      margin-bottom: 8px;
+      text-align: center;
 }
 
 .place {
       color: hsl(75, 94%, 57%);
+      margin-bottom: 20px;
+      font-size: 18px;
 }
 
 .slogan {
       color: #989898;
+      margin-bottom: 18px;
+}
+
+ul {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 18px;
 }
 
 ul li {
@@ -57,17 +76,37 @@ ul li {
       text-decoration: none;
       display: block;
       color: white;
+      font-weight: 600;
       background-color: #333333;
+      text-align: center;
+      padding: 20px 0;
+      border-radius: 10px;
+}
+
+.link:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: #333333;
+      transition: background-color 0.1s linear;
+}
+
+.link:focus {
+      background-color: hsl(75, 94%, 57%);
+      color: #333333;
+      transition: background-color 0.1s linear;
 }
 
 .attribution {
+      background-color: #141414;
+      color: hsl(230, 9%, 87%);
       font-size: 11px;
       text-align: center;
+      padding-bottom: 10px;
 }
 
 .attribution a {
-      color: hsl(228, 45%, 44%);
+      color: hsl(230, 9%, 87%);
 }
+
 
 @media (max-width: 375px) {
     .container {
