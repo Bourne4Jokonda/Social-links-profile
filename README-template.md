@@ -16,8 +16,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -40,7 +38,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://disk.yandex.ru/i/-VnptYWMzKuAuQ) (https://disk.yandex.ru/i/gOb77pVGUtfL0w)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process

@@ -112,4 +112,8 @@ ul li {
     .container {
         max-width: 320px;
     }
+
+    .link {
+      padding: 12px 0;
+    }
 }
